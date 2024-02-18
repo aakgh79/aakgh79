@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="input.js" />
+    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="all.css"/>
+    <script src="all.js"></script>
+   <script src="Bootstrap.js"></script>
+ 
+    <title>yek seda</title>
+  </head>
+  <body>
+
+    <fieldset> <legend class=" fw-bold  text-center"> فرم ثبت نام </legend>
+    <div class="container-fluid p-3 m-2" >
+      <div class="row  " >
+        <div class="col-md-8 col-md-offset-4" >
+          <div class="panel panel-default" >
+            <div class="panel-body" >
+              <form class="form-horizontal"  >
+                <div class="form-group" >
+                  <h2 class="text-statrt fw-bold  mb-5">login form</h2>
+                  <label class="col-md-4 control-label" >Email</label>
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      value="@gmail.com"
+                      placeholder="email"
+                     />
+                    <div class="valid-feedback">
+                      Looks good!
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label">Password</label>
+                  <div class="col-md-6">
+                    <input
+                      id="password-field"
+                      type="password"
+                      class="form-control"
+                      name="password"
+                      value="0"
+                      placeholder="password"
+                      minlength="2"
+                      maxlength="8"
+                     
+                      
+                    />
+                    <div class="d-grid gap-2 col-12 justify-content-end ">
+                    <span
+                      toggle="#password-field"
+                      id="toggle-password"
+                      class="fa-fw fa-eye-slash field-icon toggle-password"
+                    ></span>
+                  </div><button class= "btn btn-lg  mt-4 active"  style="background-color: #6666FF"  onclick="document.getElementById('demo').innerHTML = Date()">
+                        click till show time 
+                      </button>
+                      <p id="demo"></p>
+                    </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </fieldset>
+  </br>
+</br>
+ <!-- <nav class="navbar navbar-dark fixed-top" style="background-color: blueviolet;" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+          </nav>
+        </div>
+
+     
+<div class="container " >
+  <div class="row ">
+    <div class="col-sm-6 justify-content-around " >
+        <ol class="list-group align-items-center "  >
+<li class="list-group-item fst-italic ">text go home</li>
+<li class="list-group-item">text go home</li>
+<li class="list-group-item">text go home</li>
+<li class="list-group-item">text go home</li>
+<li class="list-group-item">text go home</li>
+<li class="list-group-item">text go home</li> 
+<li class="list-group-item">text go home</li>
+<li class="list-group-item">text go home</li>
+<li class="list-group-item">text go home</li>
+<li class="list-group-item">text go home</li></div>
+        </ol>
+        <div class="col-sm-6 justify-content-around " >
+        <ol class="list-group align-items-center "  >
+          <li class="list-group-item">text go homed    </li>
+          <li class="list-group-item">text go homed    </li>
+          <li class="list-group-item">text go homed    </li>
+          <li class="list-group-item">text go homed    </li>
+          <li class="list-group-item">text go homed    </li>
+          <li class="list-group-item">text go homed    </li>
+          <li class="list-group-item">text go homed    </li>
+          <li class="list-group-item">text go homed    </li>
+          <li class="list-group-item">text go homed    </li>
+          <li class="list-group-item">text go homed    </li>
+                  </ol>
+</div>
+</div></div>-->
+ <!--Button trigger modal 
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  \ در حال برسی سیستم های نظارتی 
+</button>
+-->
+ <!--Modal 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel" >در حال برسی سیستم ها</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...لللقققلل
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<script>
+  let flag = 0;
+  $("#toggle-password").click(function () {
+    if (flag == 0) {
+      $("#password-field").attr("type", "text");
+      $("#toggle-password").removeClass("fa-eye").addClass("fa-eye-slash");
+      flag = 1;
+    } else {
+      flag = 0;
+      $("#password-field").attr("type", "password");
+      $("#toggle-password").removeClass("fa-eye-slash").addClass("fa-eye");
+    }
+  });
+</script>
+ </body>
+  </html>

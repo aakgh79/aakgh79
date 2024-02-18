@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="Bootstrap.js"></script>
+    <link rel="stylesheet" href="all.css"/>
+    <script src="all.js"></script>
+
+ 
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-6">
+          <div class="row">
+            <label for="email" class="text-center">Email</label>
+            <input id="email" name="email" type="text" />
+          </div>
+          <div class="row">
+            <label for="name" class="text-center">Name</label>
+            <input id="password-field" name="name" type="password" />
+            <div><div class="d-grid gap-2 col-12 justify-content-end ">
+                <span
+                  toggle="#password-field"
+                  id="toggle-password"
+             class="fa-solid fa-eye field-icon toggle-password "></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="d-flex align-items-center justify-content-center mt-5 ">
+  <dl>
+<dt>;jhf ihd o,hknksd
+<dd>
+  ukkjgkik
+</dd>
+<dd>
+  dthtdhdthkt
+</dd>
+<dd>
+  dthdth
+</dd>
+<dd>
+  tdhdh
+</dd>
+<dd>
+ <a href="/en/product-list/ip-phone?filter=dect-phone">DECT Phone</a>
+</dd>
+
+
+
+
+
+
+</dt>
+  </dl>
+</div>
+
+
+
+
+
+    <script>
+let flag = 0;
+  $("#toggle-password").click(function () {
+    if (flag == 0) {
+      $("#password-field").attr("type", "text");
+      $("#toggle-password").removeClass("fa-eye").addClass("fa-solid fa-eye-slash");
+      flag = 1;
+    } else {
+      flag = 0;
+      $("#password-field").attr("type", "password");
+      $("#toggle-password").removeClass("fa-solid fa-eye-slash").addClass("fa-eye");
+    }
+  });
+    </script>
+  </body>
+</html>
